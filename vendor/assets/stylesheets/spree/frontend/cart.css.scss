@@ -1,0 +1,91 @@
+
+td.cart-item-description > h4 > a {
+	color: #333333;
+	text-decoration: none;
+}
+
+td.cart-item-description > h4 > a:hover,
+td.cart-item-description > h4 > a:active {
+	color: #000;
+}
+
+td.cart-item-price,
+td.cart-item-total {
+	color: #333333;
+}
+
+td.cart-item-delete > a > span {
+	color: green;
+}
+
+td.cart-item-delete > a > span:hover {
+	color: darkgreen;
+}
+
+td.cart-item-quantity > input[type=number] {
+	border: 1px solid lightgray;
+	border-radius: 2px;
+}
+td.cart-item-quantity > input[type=number]:active,
+td.cart-item-quantity > input[type=number]:focus, {
+	border: 1px solid #db9e86;
+	border-radius: 2px;
+}
+
+p#clear_cart_link > input[type=submit] {
+	border-radius: 2px;
+}
+p#clear_cart_link > input[type=submit]:focus,
+p#clear_cart_link > input[type=submit]:active {
+	border: 1px solid gray !important;
+	box-shadow: none;
+	outline: none;
+}
+p#clear_cart_link > a.continue {
+	color: #444444;
+}
+p#clear_cart_link > a.continue:hover {
+	color: #000;
+}
+
+div[data-hook=inside_cart_form] > div[data-hook=coupon_code] {
+	display: none;
+}
+
+div[data-hook=cart_buttons] {
+	margin-bottom: 80px;
+}
+div[data-hook=cart_buttons] > div:first-child > #update-button {
+	font-weight: bold;
+	font-size: 15px;
+    color: black;
+    background-color: #f3f3f3;
+    width: 130px;
+    height: 35px;
+    border-radius: 2px;
+    border: none;
+}
+div[data-hook=cart_buttons] > div:first-child > #update-button:hover {
+	background-color: #e6e6e6;
+}
+div[data-hook=cart_buttons] > div:first-child > #update-button:focus,
+div[data-hook=cart_buttons] > div:first-child > #update-button:active {
+	background-color: #d9d9d9;
+}
+
+div[data-hook=cart_buttons] > div:first-child > #checkout-link {
+	font-weight: bold;
+	font-size: 15px;
+    color: white;
+    background-color: #0c4b33;
+    width: 150px;
+    height: 35px;
+    border-radius: 2px;
+    border: none;
+    padding: 6px 12px;
+}
+div[data-hook=cart_buttons] > div:first-child > #checkout-link:focus,
+div[data-hook=cart_buttons] > div:first-child > #checkout-link:active,
+div[data-hook=cart_buttons] > div:first-child > #checkout-link:hover {
+	background-color: #083524;
+}

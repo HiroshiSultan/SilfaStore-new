@@ -1,0 +1,5 @@
+* Find Product Import tab in Products Main Menu in sidebar
+* Clear Product Related Data to verify import without interfering with other data
+* Sample CSV Download
+* Sample CSV Product Import
+* User Supplied CSV import

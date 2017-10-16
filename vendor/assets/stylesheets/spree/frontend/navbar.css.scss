@@ -1,0 +1,73 @@
+
+/* Navigation Bar */
+
+#spree-header {
+	background-color: #0c4b33;
+}
+
+nav.navbar,
+ul.dropdown-menu {
+	background-color: #008351 !important;
+}
+.navbar-header > a > img {
+	width: 200px;
+}
+
+.navbar-collapse {
+	border-color: #0c4b33 !important;
+}
+
+#logo img {
+	max-height: 200px !important;
+	width: 320px;
+}
+
+#top-nav-bar {
+	margin-top: 30px;
+}
+
+.nav li,
+.dropdown-menu > li > a {
+	font-weight: bold;
+}
+
+.navbar-header > button.navbar-toggle {
+	border-color: #0c4b33;
+	margin-top: 18px;
+}
+
+.navbar-inverse .navbar-nav > .open > a,
+.navbar-inverse .navbar-nav > .open > a:hover,
+.navbar-inverse .navbar-nav > .open > a:focus {
+	background-color: #0d5c3e;
+}
+
+ul.nav > li > a:hover,
+ul.nav > li > a:focus,
+ul.nav > li > a:active,
+ul.dropdown-menu > li > a:hover,
+ul.dropdown-menu > li > a:focus,
+ul.dropdown-menu > li > a:active {
+	color: #fff !important;
+}
+
+i.fa-sign-in
+i.fa-sign-out {
+	margin-right: 3px;
+	font-size: 17px
+}
+
+@media only screen and (min-width: 768px) {
+
+	.navbar-header {
+		margin-left: -20px !important;
+	}
+	.navbar-nav > li > a {
+		height: 73px;
+		padding-top: 25px;
+	}
+	.dropdown-menu > li > a {
+		padding: 15px;
+	}
+}
+

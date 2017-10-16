@@ -1,0 +1,59 @@
+
+div#content > div#checkout {
+	margin-top: 30px;
+}
+
+.nav-pills > li > a {
+	color: #463333;
+}
+.nav-pills > li.active > a, 
+.nav-pills > li.active > a:hover, 
+.nav-pills > li.active > a:focus {
+    color: #fff;
+    background-color: #008351 !important;
+}
+
+div#billing > div.panel-heading > h3,
+div#shipping > div.panel-heading > h3,
+div#shipping > div.panel-body > p {
+	color: #222222;
+}
+
+div.form-buttons {
+	margin-bottom: 80px;
+}
+div.form-buttons > input[type=submit] {
+	border-radius: 2px;
+	padding: 7px 25px;
+    color: white;
+    background-color: #0c4b33;
+    border: none;
+}
+div.form-buttons > input[type=submit]:hover,
+div.form-buttons > input[type=submit]:focus,
+div.form-buttons > input[type=submit]:active {
+	background-color: #083524;
+}
+
+#summary-order-total {
+	color: #000;
+}
+
+.payment-images {
+	margin: 20px 0px;
+}
+.payment-image {
+	text-align: center;
+}
+.comodo-image > img {
+	margin: 15px 0px;
+}
+.truste-image > img {
+	margin: 30px 0px
+}
+
+@media only screen and (min-width: 992px) {
+	#checkout-summary {
+		margin-top: 120px;
+	}
+}
